@@ -1,0 +1,24 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React/Redux and Express apps",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Brad Traversy & Gregory Assasie",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "firebase": "^5.7.0",
+    "google-maps-react": "^2.0.2",
+    "nodemon": "^1.14.7",
+    "react-router-dom": "^4.3.1"
+  }
+}
