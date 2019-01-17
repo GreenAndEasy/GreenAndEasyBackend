@@ -93,5 +93,5 @@ app.get('/api/kinds', (req, res) => {
         }
     )
 });
-server.listen(5000, 'localhost');
+server.listen(5000, '85.214.93.81');
 
